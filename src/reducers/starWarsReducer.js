@@ -1,4 +1,9 @@
-import /* we need our action types here*/ "../actions";
+import {
+  /* we need our action types here*/ FETCHING,
+  SUCCESS,
+  FAILURE
+} from "../actions";
+
 const initialState = {
   characters: [],
   fetching: false,

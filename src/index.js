@@ -14,7 +14,6 @@ import thunk from "redux-thunk";
 import logger from "redux-logger";
 // rootReducer from ./reducers
 import charsReducer from "./reducers";
-git;
 //We're going to use applyMiddleware to inject middleware into the store, specifically we'll add the redux-thunk and redux-logger middleware packages.
 const store = createStore(
   charsReducer,
